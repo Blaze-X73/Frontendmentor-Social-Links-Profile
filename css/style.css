@@ -21,31 +21,31 @@ body {
     font-family: Inter, sans-serif;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     background: var(--grey800);
     width: clamp(20.3rem, 18.7rem + 2vw, 21rem);
-    padding: 1.3rem;
+    padding: clamp(1.3rem, 0.8rem + 0.2vw, 2rem);
     border-radius: 0.7rem;
     gap: 1.5rem;
 }
 
-.card img{
+.card img {
     display: block;
     width: calc(1rem + 25%);
     border-radius: 100%;
 }
 
-.name{
+.name {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 0.55rem;
 }
 
-.name h1{
+.name h1 {
     color: var(--white);
     font-weight: 600;
 }
@@ -56,13 +56,13 @@ body {
     font-weight: 600;
 }
 
-.description{
+.description {
     color: var(--white);
     font-size: 0.865rem;
     font-weight: 400;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,12 +70,14 @@ body {
     gap: 0.75rem;
 }
 
-.links a button{
+.links button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Inter, sans-serif;
     border: none;
     background: var(--grey700);
     width: 100%;
-    padding: 0.75rem 0;
     border-radius: 0.45rem;
     text-decoration: none;
     color: var(--white);
@@ -84,14 +86,21 @@ body {
     transition: 0.3s ease;
 }
 
-.links a button:hover{
+.links button:hover {
     background: var(--green);
-    color: var(--grey800);
+
 }
 
-.links a{
+.links button a {
     text-decoration: none;
     width: 100%;
+    height: 100%;
+    padding: 0.75rem 0;
     color: var(--white);
     font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.links button a:hover {
+    color: var(--grey800);
 }
