@@ -81,6 +81,12 @@ body {
     color: var(--white);
     font-weight: 700;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.links a button:hover{
+    background: var(--green);
+    color: var(--grey800);
 }
 
 .links a{
