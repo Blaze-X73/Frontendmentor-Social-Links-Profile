@@ -50,7 +50,7 @@ body {
     font-weight: 600;
 }
 
-.name h4 {
+.name h2 {
     color: var(--green);
     font-size: 0.865rem;
     font-weight: 600;

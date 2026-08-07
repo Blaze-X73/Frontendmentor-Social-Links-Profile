@@ -27,38 +27,25 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://blaze-x73.github.io/Frontendmentor-Social-Links-Profile/)
 
 ## My process
+I started with the basic HTML structure using semantic tags, then I applied basic body styling before styling the card and trying to implement some responsive sizes.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-
-### What I learned
-
-### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-### AI Collaboration
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Blaze-X73](https://www.frontendmentor.io/profile/Blaze-X73)
 
 ## Acknowledgments
-
+My Lord and Saviour Jesus Christ.
 
