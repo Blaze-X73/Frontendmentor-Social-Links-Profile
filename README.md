@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/social-links-profile-WiAvZLd5_p)
 - Live Site URL: (https://blaze-x73.github.io/Frontendmentor-Social-Links-Profile/)
 
 ## My process
