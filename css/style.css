@@ -20,3 +20,72 @@ body {
     background: var(--grey900);
     font-family: Inter, sans-serif;
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--grey800);
+    width: clamp(20.3rem, 18.7rem + 2vw, 21rem);
+    padding: 1.3rem;
+    border-radius: 0.7rem;
+    gap: 1.5rem;
+}
+
+.card img{
+    display: block;
+    width: calc(1rem + 25%);
+    border-radius: 100%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.55rem;
+}
+
+.name h1{
+    color: var(--white);
+    font-weight: 600;
+}
+
+.name h4 {
+    color: var(--green);
+    font-size: 0.865rem;
+    font-weight: 600;
+}
+
+.description{
+    color: var(--white);
+    font-size: 0.865rem;
+    font-weight: 400;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.75rem;
+}
+
+.links a button{
+    font-family: Inter, sans-serif;
+    border: none;
+    background: var(--grey700);
+    width: 100%;
+    padding: 0.75rem 0;
+    border-radius: 0.45rem;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.links a{
+    text-decoration: none;
+    width: 100%;
+    color: var(--white);
+    font-weight: 700;
+}
